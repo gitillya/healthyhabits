@@ -8,7 +8,9 @@ import java.sql.SQLException;
 
 public abstract class BaseRepository<T> implements Repository<T> {
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/healthyhabits";
+    //private static final String DB_URL = "jdbc:mysql://localhost:3306/healthyhabits";
+    private static final String DB_URL = "jdbc:mysql://jws-app-mysql:3306/healthyhabits";
+
     private static final String USER = "root";
     private static final String PASS = "admin";
 
