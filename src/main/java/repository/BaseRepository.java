@@ -11,8 +11,10 @@ public abstract class BaseRepository<T> implements Repository<T> {
     //private static final String DB_URL = "jdbc:mysql://localhost:3306/healthyhabits";
     private static final String DB_URL = "jdbc:mysql://jws-app-mysql:3306/healthyhabits";
 
-    private static final String USER = "root";
-    private static final String PASS = "admin";
+    //private static final String USER = "root";
+    private static final String USER = "user";
+    //private static final String PASS = "admin";
+    private static final String PASS = "password";
 
     final static Logger logger = Logger.getLogger(BaseRepository.class);
 
