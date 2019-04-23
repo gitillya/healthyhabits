@@ -11,8 +11,8 @@
         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         <%-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">     --%>
 
-       <link href="/healthyhabits/public/css/style.css" rel="stylesheet">
-       <link href="/healthyhabits/public/css/schedule.css" rel="stylesheet">
+       <link href="../static/css/style.css" rel="stylesheet">
+       <link href="../static/css/schedule.css" rel="stylesheet">
        <link href="/healthyhabits/public/js/schedule.js">
     </head>
     <body>
